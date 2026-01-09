@@ -53,31 +53,28 @@ Built with **React, Excalidraw, Node.js, MongoDB, and WebSockets**.
 
 ---
 
-## 📂 Project Structure
-
 canvas-creation-main/
 │
 ├── client/
-│ ├── src/
-│ │ ├── pages/
-│ │ │ ├── Dashboard.tsx
-│ │ │ └── Whiteboard.tsx
-│ │ ├── components/
-│ │ ├── socket.ts # shared socket instance
-│ │ └── main.tsx
-│ └── package.json
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Dashboard.tsx
+│   │   │   └── Whiteboard.tsx
+│   │   ├── components/
+│   │   ├── socket.ts        # shared socket instance
+│   │   └── main.tsx
+│   └── package.json
 │
 ├── server/
-│ ├── src/
-│ │ ├── controllers/
-│ │ │ └── boardController.ts
-│ │ ├── routes/
-│ │ │ └── boards.ts
-│ │ ├── models/
-│ │ │ └── Board.ts
-│ │ ├── socket.ts
-│ │ └── index.ts
-│ └── package.json
+│   ├── src/
+│   │   ├── controllers/
+│   │   │   └── boardController.ts
+│   │   ├── routes/
+│   │   │   └── boards.ts
+│   │   ├── models/
+│   │   │   └── Board.ts
+│   │   ├── socket.ts
+│   │   └── index.ts
+│   └── package.json
 │
 └── README.md
-
